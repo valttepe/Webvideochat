@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>WebRTC example</title>
+    <script src="modules/socket.io-client/dist/socket.io.js"></script>
+    <style>
+        video {
+            height: 150px;
+        }
+    </style>
+</head>
+<body>
+    <video id="localVideo" autoplay></video>
+    <video id="webVideo" autoplay></video>
+    <button type="button" id="btnMakeCall">Make Call</button>
+    <script src="js/rtc.js"></script>
+</body>
+</html>
